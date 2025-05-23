@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:newshive/views/bookmarkPage.dart';
 import 'views/loginPage.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
-      home: const LoginPage(), // Tampilan pertama saat aplikasi dibuka
+      home: const BookmarkScreen(), // Tampilan pertama saat aplikasi dibuka
     );
   }
 }
